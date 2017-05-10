@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Artem Tolstov
+        </title>
+        <link rel="stylesheet" type="text/css" href="site.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $("#hide").click(function() {
+                    $(".hideme").hide();
+                });
+                $("#show").click(function() {
+                    $(".hideme").show();
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div>           
+            <ul id="demo">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="current.html">Current Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="bootstrap.html">Bootstrap page</a></li>
+            </ul>
+        </div>
+
+        <div style="margin-left:150px; padding:1px 16px;height:1000px;">
+            <h1 class="myclass" >Hello world!</h1>
+            <p>This is the page of Artem tolstov </p>
+            <p>I'm a leaf on the wind, watch how I soar</p>
+
+            <a href="comments.php"> Questions, Comments, Concerns... <br></a>
+            <a href="displayComments.php">Read what people said <br></a>
+            <a href="phpPage.php"> Go To PHP Page <br></a>
+
+            <button onclick="myFunction()">
+                Click me to change color.</button>
+
+            <br><button id="hide">BOSS IS COMING, HIDE NSFW</button> 
+            <br><button id="show">Show NSFW content</button>
+
+            <p class="hideme">More and more sample text. <br>
+                More and more sample text. <br>
+                More and more sample text. <br>
+                More and more sample text. <br>
+                More and more sample text. <br>
+                More and more sample text. <br>
+                More and more sample text. <br>
+                More and more sample text. <br>
+                More and more sample text. <br>
+                More and more sample text. <br>
+                More and more sample text. <br>
+                More and more sample text. <br>
+                More and more sample text. <br>
+                More and more sample text. <br>
+                More and more sample text. <br>
+                More and more sample text. <br>
+                More and more sample text. <br>
+                More and more sample text. <br>
+                More and more sample text. <br>
+                More and more sample text. <br>
+                More and more sample text. <br>
+                More and more sample text. <br>
+                More and more sample text. <br>
+                More and more sample text. <br>
+                More and more sample text. <br>
+                More and more sample text. <br>
+                More and more sample text. <br>
+                More and more sample text. <br>
+                More and more sample text. <br>
+
+
+
+            </p>
+        </div>
+        <div>
+            <a href="about.html"> about this site </a>
+        </div>
+        <div>
+            <a href="current.html"> Current Page </a>
+        </div>
+
+        <script src="changeNavColor.js"></script>
+    </body>
+</html>
